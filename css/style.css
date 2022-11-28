@@ -3,16 +3,12 @@
     padding: 0;
     background-color:white ;
 }
-#ciao{
-    background-color: #A52A2A;
-  width: 20%;
-  height: 300px;
-    
-}
+
 /********** DESKTOP **********/
 @media(min-width:992px) {
-    * {background-color: black;
-
+    * {
+        
+        background-color: black;
     }
 }
 
