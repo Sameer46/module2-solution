@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:white ;
+}
+#ciao{
+    background-color: #A52A2A;
+  width: 20%;
+  height: 300px;
+    
+}
+/********** DESKTOP **********/
+@media(min-width:992px) {
+    * {background-color: black;
+
+    }
+}
+
+/********** TABLET **********/
+@media (min-width:768px) and (max-width:991px){
+    *{
+        background-color: red;
+    }
+}
+
+/********** MOBILE **********/
+@media (max-width:767px) {
+    *{background-color: yellow;
+    
+        
+     }
+}
